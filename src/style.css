@@ -225,7 +225,24 @@ section {
 
 .hero-btns {
   display: flex;
-  gap: 1rem;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.trust-line {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #636e72;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.trust-line i {
+  color: var(--accent);
+  width: 18px;
+  height: 18px;
 }
 
 .hero-image {
